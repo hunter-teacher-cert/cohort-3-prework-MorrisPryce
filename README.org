@@ -1,5 +1,6 @@
-* Last name: Morris Pryce
-* First name: Sandy
+* Last name:Morris Pryce
+* First name:Sandy
+
 * Github username:MorrisPryce
 
 * Instructions:
