@@ -10,26 +10,24 @@ System.out.println(value);
 
 public static void main(String[] args){
 int value = 11;
-int month = 01;
-int date = 01;
+int date = 24;
 int year = 2022;
+
 System.out.println(value);
-petName("Penny", "Takoma street");
-printAmerica("Monday", "January", month, year );
+petName("Penny",  "Macbeth street");
+printAmerica("Monday" , "January" , date , year);
 
 }
 
 public static void petName(String S, String s){
 
-System.out.println("My pets name is " + S);
-System.out.println("Street lived on "+ s);
+System.out.println("My pets name is " + S + ", Street lived on " + s);
+//System.out.println("Street lived on "+ s);
 }
 
 public static void printAmerica(String day, String month, int date, int year){
-System.out.println(day);
-System.out.println(month);
-System.out.println(date);
-System.out.println(year);
+System.out.println(day + ", " + month + " " + date + ", " + year);
+
 
 }
 
