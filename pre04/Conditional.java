@@ -5,15 +5,17 @@ public class Conditional{
   
 public static void main (String [] args){
 int a;
- a = 5;
+ a = 15;
 
  if (a > 10){
    System.out.println("A is bigger");
    System.out.println("if not in");
- } else{
+ } else if (a < 10){
 System.out.println("It's < or =");
 System.out.println("if not in");
- }
+ }else{
 System.out.println("positive single digit number.");
+ }
+
 }
 }
