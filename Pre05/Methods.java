@@ -25,4 +25,7 @@ public static boolean isTriangle(int a, int b, int c){
     return false;
   }
 }
+/*public static int ack(int n, int m){
+  if (m = 0)
+}*/
   }
